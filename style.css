@@ -15,6 +15,9 @@ body{
     overflow: hidden;
 
 }
+.p1{
+    font-size: 1rem;
+}
 .video{
     position: absolute;
     left: 0;
@@ -32,4 +35,27 @@ body{
     height: 100%;
     z-index: -1;
     background-color: rgba(0, 0, 0, 0.466);
+}
+.header{
+    font-size: 1.5rem;
+    margin: 20px 0;
+    animation: fadeIn 1.5s ease-in-out;
+}
+.button{
+    display: inline-block;
+    padding:15px 30px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: rgb(4, 169, 4);
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background 0.5s ease;
+    animation: fadeIn 2s ease-in-out;
+}
+.button:hover{
+    background-color: rgb(4, 107, 4);
+    font-size: 1rem;
+}
+.page2{
+    background-color: rgb(6, 81, 81);
 }
